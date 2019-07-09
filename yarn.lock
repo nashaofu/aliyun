@@ -672,6 +672,13 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
+"@koa/cors@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.npm.taobao.org/@koa/cors/download/@koa/cors-3.0.0.tgz#df021b4df2dadf1e2b04d7c8ddf93ba2d42519cb"
+  integrity sha1-3wIbTfLa3x4rBNfI3fk7otQlGcs=
+  dependencies:
+    vary "^1.1.2"
+
 abbrev@1:
   version "1.1.1"
   resolved "https://registry.npm.taobao.org/abbrev/download/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
@@ -1232,6 +1239,11 @@ doctrine@^3.0.0:
   integrity sha1-rd6+rXKmV023g2OdyHoSF3OXOWE=
   dependencies:
     esutils "^2.0.2"
+
+dotenv@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.npm.taobao.org/dotenv/download/dotenv-8.0.0.tgz#ed310c165b4e8a97bb745b0a9d99c31bda566440"
+  integrity sha1-7TEMFltOipe7dFsKnZnDG9pWZEA=
 
 ee-first@1.1.1:
   version "1.1.1"

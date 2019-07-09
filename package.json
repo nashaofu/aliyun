@@ -4,6 +4,7 @@
   "description": "aliyun authorization server",
   "main": "index.js",
   "scripts": {
+    "start": "node -r dotenv/config lib/index.js",
     "dev": "babel src --out-dir ./lib --watch --source-maps",
     "build": "npm run lint && babel src --out-dir ./lib",
     "lint": "eslint src --ext .js --fix"
@@ -16,6 +17,7 @@
   "license": "ISC",
   "dependencies": {
     "@babel/runtime": "^7.5.1",
+    "@koa/cors": "^3.0.0",
     "axios": "^0.19.0",
     "fs-extra": "^8.1.0"
   },
@@ -25,6 +27,7 @@
     "@babel/plugin-transform-runtime": "^7.5.0",
     "@babel/preset-env": "^7.5.0",
     "babel-eslint": "^10.0.2",
+    "dotenv": "^8.0.0",
     "eslint": "^6.0.1",
     "eslint-config-standard": "^12.0.0",
     "eslint-plugin-import": "^2.18.0",
